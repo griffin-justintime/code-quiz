@@ -10,3 +10,8 @@ h1 {
 section p {
   text-align: center;
 }
+
+button {
+  background-color: purple;
+  color: white;
+}
