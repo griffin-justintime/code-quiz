@@ -31,4 +31,24 @@ var codeQuestions = [
     ],
     correct: "4",
   },
+  {
+      question: "String values must be enclosed within _____ when being assigned to variables.",
+      answers: [
+          "1.commas",
+          "2.curly brackets",
+          "3.quotes",
+          "4.parentheses",
+      ],
+      correct: "3",
+  },
+  {
+      question: "A very useful tool used during development and debugging for printing content to the debugger is:",
+      answers: [
+          "1.JavaScript",
+          "2.terminal/bash",
+          "3.for loops",
+          "4.console.log",
+      ],
+      correct: "4",
+  },
 ];
