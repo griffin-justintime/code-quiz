@@ -1,13 +1,14 @@
 var startButton = document.getElementById("start");
 
-startButton.addEventListener("click", function () {
-  console.log("hello world");
-});
 
 var codeQuestions = [
   {
     question: "Commonly used data types DO NOT include:",
-    answers: ["1.strings", "2.booleans", "3.alerts", "4.number"],
+    answers: [
+        "1.strings", 
+        "2.booleans", 
+        "3.alerts", 
+        "4.number"],
     correct: "3",
   },
   {
@@ -52,3 +53,9 @@ var codeQuestions = [
       correct: "4",
   },
 ];
+
+startButton.addEventListener("click", function () {
+    codeQuestions.forEach(
+        
+    )
+  });
