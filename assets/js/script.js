@@ -45,14 +45,16 @@ var codeQuestions = [
     correct: "4",
   },
 ];
-console.log(codeQuestions);
+// console.log(codeQuestions);
 
 function isCorrect(correctAnswer) {
   if ((correct = true)) {
     alert("Correct!");
+  } else {
+    alert("Wrong!");
   }
 }
-console.log(correctAnswer);
+// console.log(correctAnswer);
 startButton.addEventListener("click", function () {
-  codeQuestions.forEach();
+  isCorrect();
 });
