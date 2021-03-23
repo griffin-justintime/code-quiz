@@ -45,7 +45,11 @@ var codeQuestions = [
     correct: "4",
   },
 ];
-// console.log(codeQuestions);
+
+function startQuiz() {
+  var questEl = document.createElement("h1");
+  questEl.textContent = codeQuestions[list];
+}
 
 function isCorrect(correctAnswer) {
   if ((correct = true)) {
@@ -54,7 +58,9 @@ function isCorrect(correctAnswer) {
     alert("Wrong!");
   }
 }
-// console.log(correctAnswer);
+
 startButton.addEventListener("click", function () {
   isCorrect();
 });
+
+startQuiz();
