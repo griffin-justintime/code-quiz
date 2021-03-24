@@ -1,4 +1,7 @@
-var startButton = document.getElementById("startQuiz");
+var startEl = document.getElementById("startQuiz");
+var quizEl = document.getElementById("quiz");
+var questionsEl = document.getElementById("CodeQuestions");
+
 
 var codeQuestions = [
   {
